@@ -6,6 +6,8 @@ For: Robert Sabourin
 Example project for reading and writing into a premade excel file. The excel file being used can be found under src/main/resources. To be specific, the excel file has two sheets/tab: the first having no use, and the second having a (value, rate, converted value) as columns. The third column (converted value) has a formula associated with it such that (C2 = A2 * B2).
 
   In this application demo, we will be going into the second tab and grabbing the value in the position A2 (the value). Then we will be modifying the value in B2 (the rate) and saving the excel file.
+  
+  **The excel file can be found under src/main/java/resources/excel-file.xlsx**
 
 ## Requirements
 1. JDK v1.8 [Link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
